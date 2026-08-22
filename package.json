@@ -1,0 +1,24 @@
+{
+  "name": "demoblaze-test",
+  "version": "1.0.0",
+  "description": "Automated purchasing process on Demoblaze test application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-karen/demoblaze-test.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/m-karen/demoblaze-test/issues"
+  },
+  "homepage": "https://github.com/m-karen/demoblaze-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  }
+}
