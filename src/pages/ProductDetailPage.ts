@@ -24,7 +24,7 @@ export class ProductDetailPage extends BasePage {
         
         // Zpracování zachyceného dialogu
         const dialog = await dialogPromise;
-        expect(dialog.message()).toBe('Product added.');
+        expect(dialog.message()).toBe('Product added');
         await dialog.accept();
     }
 }
